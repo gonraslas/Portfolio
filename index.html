@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Porfolio Gonzalo Rasines</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <div id="home">
+        <!---------------Barra Navegación--------------->
+        <nav class="navbar navbar-expand-md navbar-dark bg-light fixed-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Sobre mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!---------------Background--------------->
+        <div class="background">
+            <img src="background.jpg" class="img-fluid">
+        </div>
+        <div class="heading-content text-center">
+            <h1>Bienvenido a mi portfolio !!</h1>
+            <h5>Espero que encuentres el contenido entretenido</h1>
+        </div>
+    </div>
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+<div id="home">
+</div>
+<!---------------About--------------->
+<div id="about" class="offset container mt-3 mb-5">
+    <div class="post-heading text-center">
+        <h3 class="display-4 font-weight-bold">Sobre mi</h3>
+        <hr class="w-50 mx-auto pb-5 bg-light">
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col md-6 col-12">
+            <img src="FotoPerfil.jpg" class="img-fluid">
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+            <h2>Un poco sobre mí...</h2>
+            <hr>
+            <p>texto de ejemplo aqui contar un poco sobre ti
+                y esas cosas ya sabes
+            </p>
+        </div>
+    </div>
+</div>
+<!---------------Proyectos--------------->
+<div id="Proyectos" class="offset container mt-3 mb-5">
+    <div class="post-heading text-center">
+        <h3 class="display-4 font-weight-bold">Proyectos</h3>
+        <hr class="w-50 mx-auto pb-5 bg-light">
+    </div>
+    <div class="row">
+        <!---------------Carta 1--------------->
+        <div class="col-lg-4 col md-6 col-12 pb-5">
+            <div class="card">
+                <img src="cardRobot.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Prueba</h5>
+                    <p class="card-text">Ejemplo de algoritmo
+                        sencillo.
+                    </p>
+                    <a href="#" class="btn btn-dark">Live Preview</a>
+                </div>
+            </div>
+        </div>
+        <!---------------Carta 2--------------->
+        <div class="col-lg-4 col md-6 col-12 pb-5">
+            <div class="card">
+                <img src="cardRobot.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Prueba</h5>
+                    <p class="card-text">Ejemplo de algoritmo
+                        sencillo.
+                    </p>
+                    <a href="#" class="btn btn-dark">Live Preview</a>
+                </div>
+            </div>
+        </div>
+        <!---------------Carta 3--------------->
+        <div class="col-lg-4 col md-6 col-12 pb-5">
+            <div class="card">
+                <img src="cardRobot.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Prueba</h5>
+                    <p class="card-text">Ejemplo de algoritmo
+                        sencillo.
+                    </p>
+                    <a href="#" class="btn btn-dark">Live Preview</a>
+                </div>
+            </div>
+        </div>
+        <button class="button w-50 mx-auto mb-5">
+            <a href="Ejemplo.html">Ver todos</a>
+        </button>
+    </div>
+</div>
+<!---------------Contacto--------------->
+<div id="Contacto" class="offset container mx-auto mt-5 mb-5">
+    <div class="post-heading text-center">
+        <h3 class="display-4 font-weight-bold">Contacto</h3>
+        <hr class="w-50 mx-auto pb-5 bg-light">
+    </div>
+    <form action="/action_page.php">
+        <div class="form-group">
+            <label for="email">Nombre</label>
+            <input type="text" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+            <label for="email">Mensaje</label>
+            <textarea class="form-control"></textarea>
+        </div>
+    </form>
+    <button type="submit" class="btn btn-default">Enviar</button>
+</div>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
